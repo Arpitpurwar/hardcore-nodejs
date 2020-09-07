@@ -1,0 +1,23 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "This is for Node js learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=stag & node index.js",
+    "qa2": "SET NODE_ENV=test & node index.js",
+    "stag": " SET NODE_ENV=stag & node index.js",
+    "prod": " SET NODE_ENV=prod & node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/apurwa19/personal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
